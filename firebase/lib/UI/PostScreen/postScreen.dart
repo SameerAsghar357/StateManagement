@@ -59,7 +59,7 @@ class _PostscreenState extends State<Postscreen> {
       // ),
       body: Container(
         child: Center(
-          child: Container(
+          child: SizedBox(
             // color: Colors.deepPurple,
             height: 50,
             width: double.infinity,
@@ -79,6 +79,7 @@ class _PostscreenState extends State<Postscreen> {
                     child: Center(child: Text('Add Data')),
                   ),
                   SizedBox(width: 50),
+
                   ElevatedButton(
                     onPressed: () {
                       Navigator.push(
