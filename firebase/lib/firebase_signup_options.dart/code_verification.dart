@@ -3,7 +3,7 @@
 import 'package:firebase/Utils/utils.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase/UI/SplashScreen.dart';
+import 'package:firebase/SplashScreen.dart';
 import 'package:firebase/rounded_Button.dart';
 
 class codeVerification extends StatefulWidget {

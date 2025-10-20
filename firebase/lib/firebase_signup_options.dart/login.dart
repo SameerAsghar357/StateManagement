@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:firebase/UI/phone_number.dart';
-import 'package:firebase/UI/PostScreen/postScreen.dart';
-import 'package:firebase/UI/signup.dart';
+import 'package:firebase/firebase_signup_options.dart/phone_number.dart';
+import 'package:firebase/firebase_realtime_database.dart/postScreen.dart';
+import 'package:firebase/firebase_signup_options.dart/signup.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase/Utils/utils.dart';
 import 'package:firebase/rounded_Button.dart';

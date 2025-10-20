@@ -1,11 +1,11 @@
 // ignore_for_file: unused_import, avoid_print
 
-import 'package:firebase/UI/fetchdata.dart';
-import 'package:firebase/UI/fetchdata_practice.dart';
+import 'package:firebase/firebase_realtime_database.dart/fetchdata.dart';
+import 'package:firebase/firebase_realtime_database.dart/fetchdata_practice.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase/UI/SplashScreen.dart';
-import 'package:firebase/UI/login.dart';
+import 'package:firebase/SplashScreen.dart';
+import 'package:firebase/firebase_signup_options.dart/login.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
 
-      home: FetchdataPractice(),
+      home: Splashscreen(),
     );
   }
 }

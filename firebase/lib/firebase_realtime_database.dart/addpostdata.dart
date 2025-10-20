@@ -2,7 +2,7 @@
 
 import 'dart:async';
 
-import 'package:firebase/UI/fetchdata.dart';
+import 'package:firebase/firebase_realtime_database.dart/fetchdata.dart';
 import 'package:firebase/Utils/utils.dart';
 import 'package:firebase/rounded_Button.dart';
 import 'package:firebase_core/firebase_core.dart';

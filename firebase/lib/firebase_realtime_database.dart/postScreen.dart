@@ -1,8 +1,8 @@
-import 'package:firebase/UI/PostScreen/addpostScreen.dart';
-import 'package:firebase/UI/fetchdata.dart';
+import 'package:firebase/firebase_realtime_database.dart/addpostdata.dart';
+import 'package:firebase/firebase_realtime_database.dart/fetchdata.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase/UI/login.dart';
+import 'package:firebase/firebase_signup_options.dart/login.dart';
 import 'package:firebase/Utils/utils.dart';
 
 class Postscreen extends StatefulWidget {
