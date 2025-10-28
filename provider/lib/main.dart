@@ -1,49 +1,43 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:provider_stateManagement/WsCube_Provider/add_data_provider.dart';
+import 'package:provider_stateManagement/WsCube_Provider/add_data_screen.dart';
 
+// void main() {
+//   runApp(
+//     ChangeNotifierProvider(
+//       create: (context) => AddDataProvider(),
+//       child: MyApp(),
+//     ),
+//   );
+// }
 void main() {
-  runApp(MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => AddDataProvider(),
+      child: MyApp(),
+    ),
+  );
 }
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: MainFile(),
-    );
+    return MaterialApp(home: AddDataScreen());
   }
 }
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
 
-class MainFile extends StatefulWidget {
-  const MainFile({super.key});
-
-  @override
-  State<MainFile> createState() => _MainFileState();
-
-}
-
-int count = 0;
-
-class _MainFileState extends State<MainFile> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: Text('Provider', style: TextStyle(color: Colors.white)),
-          centerTitle: true,
-          backgroundColor: Colors.blue,
-        ),
-        body: Center(child: Text('$count', style: TextStyle(fontSize: 35))),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            setState(() {
-              count++;
-              debugPrint('$count');
-            });
-          },
-          child: Icon(Icons.add),
-        ),
-      );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: ChangeNotifierProvider(
+//         create: (context) => AddDataProvider(),
+//         child: AddDataScreen(),
+//       ),
+//     );
+//   }
+// }
