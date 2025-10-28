@@ -1,1 +1,3 @@
-Firebase Course by Asif Taj - Tech Brothers -> YT Channel
+StateMangement Course (Provider) 
+Tech Brothers -> Youtube Channel
+WsCube Tech - Youtube Channel
